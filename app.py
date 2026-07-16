@@ -20,7 +20,7 @@ canvas_result = st_canvas(
 )
 
 @st.cache_resource
-def get_model(path="digit_model.keras"):
+def get_model(path="my_model.keras"):
     return load_model(path)
 
 def is_canvas_empty(img_rgba, threshold=10):
